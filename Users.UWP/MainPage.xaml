@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Users.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"    
+    xmlns:models="using:Users.Common.Models"
+    >
+
+    <Page.Resources>
+        <DataTemplate x:Key="UserTemplate" x:DataType="models:User">
+            <StackPanel Orientation="Vertical"
+                        Margin="5">
+                <TextBlock Text="{x:Bind Name}"
+                           FontSize="16"
+                           FontWeight="Bold"/>
+                
+                <TextBlock Text="{x:Bind Company.Name}"
+                           FontSize="14"/>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <ListView ItemsSource="{x:Bind usersViewModel.Users}"
+                    ItemTemplate="{StaticResource UserTemplate}"
+                    Grid.Row="1"
+                    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"/>
+</Page>

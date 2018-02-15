@@ -1,0 +1,15 @@
+D:\Temp\Users.Common\Users.iOS\bin\iPhoneSimulator\Debug\Users.iOS.exe
+D:\Temp\Users.Common\Users.iOS\bin\iPhoneSimulator\Debug\Users.iOS.pdb
+D:\Temp\Users.Common\Users.iOS\bin\iPhoneSimulator\Debug\Users.Common.dll
+D:\Temp\Users.Common\Users.iOS\bin\iPhoneSimulator\Debug\Users.Common.pdb
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\Users.iOS.csprojResolveAssemblyReference.cache
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\Users.iOS.csproj.CoreCompileInputs.cache
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\Users.iOS.exe
+D:\Temp\Users.Common\Users.iOS\obj\iPhoneSimulator\Debug\Users.iOS.pdb
+D:\Temp\Users.Common\Users.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\Temp\Users.Common\Users.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml
