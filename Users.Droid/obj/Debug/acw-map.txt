@@ -1,0 +1,8 @@
+Users.Droid.MainActivity, Users.Droid;md5b7b45609116b0fd8d3be76de9e063674.MainActivity
+Users.Droid.MainActivity, Users.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b7b45609116b0fd8d3be76de9e063674.MainActivity
+Users.Droid.MainActivity;md5b7b45609116b0fd8d3be76de9e063674.MainActivity
+users.droid.MainActivity;md5b7b45609116b0fd8d3be76de9e063674.MainActivity
+Users.Droid.CustomAdapters.UsersListAdapter, Users.Droid;md51af017eddaa14d41dc8d45c558a828eb.UsersListAdapter
+Users.Droid.CustomAdapters.UsersListAdapter, Users.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51af017eddaa14d41dc8d45c558a828eb.UsersListAdapter
+Users.Droid.CustomAdapters.UsersListAdapter;md51af017eddaa14d41dc8d45c558a828eb.UsersListAdapter
+users.droid.customadapters.UsersListAdapter;md51af017eddaa14d41dc8d45c558a828eb.UsersListAdapter

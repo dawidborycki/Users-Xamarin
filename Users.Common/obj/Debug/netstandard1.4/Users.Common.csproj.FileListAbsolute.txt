@@ -1,0 +1,9 @@
+D:\Repositories\Users-Xamarin\Users.Common\bin\Debug\netstandard1.4\Users.Common.deps.json
+D:\Repositories\Users-Xamarin\Users.Common\bin\Debug\netstandard1.4\Users.Common.dll
+D:\Repositories\Users-Xamarin\Users.Common\bin\Debug\netstandard1.4\Users.Common.pdb
+D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.csproj.CoreCompileInputs.cache
+D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.AssemblyInfoInputs.cache
+D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.AssemblyInfo.cs
+D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.dll
+D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.pdb
+D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.csprojResolveAssemblyReference.cache
