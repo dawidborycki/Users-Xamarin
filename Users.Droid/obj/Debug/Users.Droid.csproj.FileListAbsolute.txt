@@ -1,3 +1,5 @@
+D:\Repositories\Users-Xamarin\Users.Droid\obj\Debug\Users.Droid.csprojResolveAssemblyReference.cache
+D:\Repositories\Users-Xamarin\Users.Droid\obj\Debug\Users.Droid.csproj.CoreCompileInputs.cache
 D:\Repositories\Users-Xamarin\Users.Droid\bin\Debug\Users.Droid.dll
 D:\Repositories\Users-Xamarin\Users.Droid\bin\Debug\Users.Droid.pdb
 D:\Repositories\Users-Xamarin\Users.Droid\bin\Debug\Users.Droid.Users.Droid.apk
@@ -6,8 +8,6 @@ D:\Repositories\Users-Xamarin\Users.Droid\bin\Debug\Newtonsoft.Json.dll
 D:\Repositories\Users-Xamarin\Users.Droid\bin\Debug\Users.Common.dll
 D:\Repositories\Users-Xamarin\Users.Droid\bin\Debug\Users.Common.pdb
 D:\Repositories\Users-Xamarin\Users.Droid\bin\Debug\Newtonsoft.Json.xml
-D:\Repositories\Users-Xamarin\Users.Droid\obj\Debug\Users.Droid.csprojResolveAssemblyReference.cache
-D:\Repositories\Users-Xamarin\Users.Droid\obj\Debug\Users.Droid.csproj.CoreCompileInputs.cache
 D:\Repositories\Users-Xamarin\Users.Droid\obj\Debug\Users.Droid.dll
 D:\Repositories\Users-Xamarin\Users.Droid\obj\Debug\Users.Droid.pdb
 D:\Repositories\Users-Xamarin\Users.Droid\obj\Debug\android\bin\Users.Droid.Users.Droid.apk

@@ -4,7 +4,7 @@ using CoreGraphics;
 using System;
 using System.Threading.Tasks;
 using UIKit;
-using Users.Common.DataSources;
+using Users.Common.ViewModels;
 using Users.iOS.CustomTableSources;
 
 #endregion
@@ -36,7 +36,7 @@ namespace Users.iOS
 
         public override void DidReceiveMemoryWarning()
         {
-            base.DidReceiveMemoryWarning();            
+            base.DidReceiveMemoryWarning();
         }
 
         #endregion

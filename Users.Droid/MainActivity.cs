@@ -2,11 +2,9 @@
 
 using Android.App;
 using Android.OS;
-using Users.Common.DataSources;
 using Users.Droid.CustomAdapters;
-using Users.Common.Models;
 using System.Threading.Tasks;
-using System.Collections.Generic;
+using Users.Common.ViewModels;
 
 #endregion
 
@@ -19,22 +17,22 @@ namespace Users.Droid
 
         protected async override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);            
+            base.OnCreate(savedInstanceState);
 
-            ListAdapter = new UsersListAdapter(this, await GetUsers());
+            ListAdapter = await CreateUsersListAdapter();
         }
 
         #endregion
 
         #region Methods (Private)
 
-        private async Task<IEnumerable<User>> GetUsers()
+        private async Task<UsersListAdapter> CreateUsersListAdapter()
         {
             var usersViewModel = new UsersViewModel();
 
             await usersViewModel.RetrieveUsers();
 
-            return usersViewModel.Users;
+            return new UsersListAdapter(this, usersViewModel.Users);
         }
 
         #endregion

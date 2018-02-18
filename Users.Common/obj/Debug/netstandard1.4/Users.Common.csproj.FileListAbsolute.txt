@@ -6,4 +6,3 @@ D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common
 D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.AssemblyInfo.cs
 D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.dll
 D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.pdb
-D:\Repositories\Users-Xamarin\Users.Common\obj\Debug\netstandard1.4\Users.Common.csprojResolveAssemblyReference.cache

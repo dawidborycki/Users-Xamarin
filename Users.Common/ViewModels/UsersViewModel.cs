@@ -7,34 +7,35 @@ using Users.Common.RestClients;
 
 #endregion
 
-namespace Users.Common.DataSources
+namespace Users.Common.ViewModels
 {
     public class UsersViewModel
     {
         #region Properties
 
-        public ObservableCollection<User> Users { get; private set; } = new ObservableCollection<User>();
+        public ObservableCollection<User> Users { get; private set; }
+            = new ObservableCollection<User>();
 
         #endregion
 
         #region Fields
 
-        private static UsersClient usersClient = new UsersClient();
+        private UsersClient usersClient = new UsersClient();
 
         #endregion
 
         #region Methods (Public)
 
         public async Task RetrieveUsers()
-        {            
+        {
             var users = await usersClient.GetAll();
 
             Users.Clear();
 
-            foreach(User user in users)
+            foreach (User user in users)
             {
                 Users.Add(user);
-            }            
+            }
         }
 
         #endregion

@@ -12,7 +12,7 @@ namespace Users.Common.Helpers
 
         public static void IsNull(object obj)
         {
-            if(obj == null)
+            if (obj == null)
             {
                 throw new ArgumentNullException();
             }

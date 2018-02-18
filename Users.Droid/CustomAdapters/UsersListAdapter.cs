@@ -12,11 +12,11 @@ using Users.Common.Models;
 
 namespace Users.Droid.CustomAdapters
 {
-    public class UsersListAdapter : BaseAdapter<string>
+    public class UsersListAdapter : BaseAdapter<User>
     {
         #region Properties
 
-        public override string this[int position] => users.ElementAt(position).Name;
+        public override User this[int position] => users.ElementAt(position);
         public override int Count => users.Count();
 
         #endregion
@@ -30,39 +30,45 @@ namespace Users.Droid.CustomAdapters
 
         #region Constructor
 
-        public UsersListAdapter(Activity context, IEnumerable<User> users) : base()
+        public UsersListAdapter(Activity context, 
+            IEnumerable<User> users) : base()
         {
             Check.IsNull(context);
             this.context = context;
 
             Check.IsNull(users);
-            this.users = users;            
+            this.users = users;
         }
 
         #endregion
 
-        #region Methods (Public)
-
-        public override long GetItemId(int position)
-        {
-            return position;
-        }
+        #region Methods (Public)        
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            View view = convertView;
+            // Get item to display
+            var user = this[position];
 
+            // Try to reuse view before creating the new one
+            var view = convertView;
             if (view == null)
             {
-                view = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem2, null);
-            }
+                view = context.LayoutInflater.Inflate(
+                    Android.Resource.Layout.SimpleListItem2, null);
+            }            
 
-            var user = users.ElementAt(position);
-
-            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = user.Name;
-            view.FindViewById<TextView>(Android.Resource.Id.Text2).Text = user.Company.Name;
+            // Configure cell properties
+            view.FindViewById<TextView>(
+                Android.Resource.Id.Text1).Text = user.Name;
+            view.FindViewById<TextView>(
+                Android.Resource.Id.Text2).Text = user.Company.Name;
 
             return view;
+        }
+
+        public override long GetItemId(int position)
+        {
+            return this[position].Id;
         }
 
         #endregion

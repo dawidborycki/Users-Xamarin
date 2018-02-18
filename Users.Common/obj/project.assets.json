@@ -4437,28 +4437,36 @@
     ]
   },
   "packageFolders": {
-    "/Users/dawid/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\dbory\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/Users/dawid/Projects/Users-Xamarin/Users-Xamarin.git/Users.Common/Users.Common.csproj",
+      "projectUniqueName": "D:\\Repositories\\Users-Xamarin\\Users.Common\\Users.Common.csproj",
       "projectName": "Users.Common",
-      "projectPath": "/Users/dawid/Projects/Users-Xamarin/Users-Xamarin.git/Users.Common/Users.Common.csproj",
-      "packagesPath": "/Users/dawid/.nuget/packages/",
-      "outputPath": "/Users/dawid/Projects/Users-Xamarin/Users-Xamarin.git/Users.Common/obj",
+      "projectPath": "D:\\Repositories\\Users-Xamarin\\Users.Common\\Users.Common.csproj",
+      "packagesPath": "C:\\Users\\dbory\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\Users-Xamarin\\Users.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/dawid/.config/NuGet/NuGet.Config"
+        "C:\\Users\\dbory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard1.4"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4476,18 +4484,17 @@
       "netstandard1.4": {
         "dependencies": {
           "NETStandard.Library": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "1.6.1",
+            "version": "[1.6.1, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.1-beta3"
+            "version": "[11.0.1-beta3, )"
           },
           "System.Net.Http": {
             "target": "Package",
-            "version": "4.3.3"
+            "version": "[4.3.3, )"
           }
         }
       }
