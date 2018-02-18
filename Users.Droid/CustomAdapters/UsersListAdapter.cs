@@ -54,7 +54,7 @@ namespace Users.Droid.CustomAdapters
 
             if (view == null)
             {
-                view = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1, null);
+                view = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem2, null);
             }
 
             var user = users.ElementAt(position);
